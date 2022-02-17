@@ -1,0 +1,53 @@
+/*!
+ * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+// scss-docs-start import-stack
+// Configuration
+@import "../../src/sass/bootstrap5/functions";
+@import "../../src/sass/bootstrap5/variables";
+@import "../../src/sass/bootstrap5/mixins";
+@import "../../src/sass/bootstrap5/utilities";
+
+// Layout & components
+@import "../../src/sass/bootstrap5/root";
+@import "../../src/sass/bootstrap5/reboot";
+@import "../../src/sass/bootstrap5/type";
+@import "../../src/sass/bootstrap5/images";
+@import "../../src/sass/bootstrap5/containers";
+@import "../../src/sass/bootstrap5/grid";
+@import "../../src/sass/bootstrap5/tables";
+@import "../../src/sass/bootstrap5/forms";
+@import "../../src/sass/bootstrap5/buttons";
+@import "../../src/sass/bootstrap5/transitions";
+@import "../../src/sass/bootstrap5/dropdown";
+@import "../../src/sass/bootstrap5/button-group";
+@import "../../src/sass/bootstrap5/nav";
+@import "../../src/sass/bootstrap5/navbar";
+@import "../../src/sass/bootstrap5/card";
+@import "../../src/sass/bootstrap5/accordion";
+@import "../../src/sass/bootstrap5/breadcrumb";
+@import "../../src/sass/bootstrap5/pagination";
+@import "../../src/sass/bootstrap5/badge";
+@import "../../src/sass/bootstrap5/alert";
+@import "../../src/sass/bootstrap5/progress";
+@import "../../src/sass/bootstrap5/list-group";
+@import "../../src/sass/bootstrap5/close";
+@import "../../src/sass/bootstrap5/toasts";
+@import "../../src/sass/bootstrap5/modal";
+@import "../../src/sass/bootstrap5/tooltip";
+@import "../../src/sass/bootstrap5/popover";
+@import "../../src/sass/bootstrap5/carousel";
+@import "../../src/sass/bootstrap5/spinners";
+
+// Helpers
+@import "../../src/sass/bootstrap5/helpers";
+
+// Utilities
+@import "../../src/sass/bootstrap5/utilities/api";
+// scss-docs-end import-stack

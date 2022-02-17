@@ -1,0 +1,205 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+// scss-docs-start color-functions
+// Tint a color: mix a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+$defaultFontFamily: "M PLUS Rounded 1c", sans-serif;
+// $defaultFontFamily: "Mulish", Arial, sans-serif;
+$line-height-base: 1.7;
+$variable-prefix: tenet-bs-;
+$white: #fff;
+$gray-25: #f8f8f8;
+$gray-50: #ebf0f1;
+$gray-100: #dfe5e7;
+$gray-200: #ccd6da;
+$gray-300: #bac4c8;
+$gray-400: #bbc3ca;
+$gray-500: #94979e;
+$gray-600: #5a6377;
+$gray-700: #475063;
+$gray-800: #3b4144;
+$gray-900: #202325;
+$black: #000;
+$input-btn-focus-color-opacity: 0.25;
+$input-btn-focus-width: 0.25rem;
+
+$tenet: #76d4ff;
+$font-color: $gray-700;
+$body-back: #fbfbfb;
+$primary-darken: #2179a1;
+$indigo: #8f53f0;
+$purple: #ad8bec;
+$pink: #e276a9;
+$red: #e87e7e;
+$orange: #ee945a;
+$yellow: #e6d284;
+$green: #4fd074;
+$teal: #5be0b8;
+$cyan: #5bc4d4;
+$purple: #7694ff;
+$color-footer: #f8f8f880;
+
+$header-background: fbf7f7, white;
+$theme-colors: ();
+
+$primary: $tenet;
+$secondary: #3a5a83;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
+
+//Melon
+$melon-primary: #f56b79;
+$melon-primary-darken: #c9515d;
+$melon-secondary: #d2707a;
+$melon-success: $green;
+$melon-info: #fcd1c7;
+$melon-warning: $yellow;
+$melon-danger: $red;
+$melon-light: $gray-100;
+$melon-dark: $gray-800;
+$melon-body-back: #fffaf9;
+$melon-font-color: #46424d;
+
+$melon-gray-50: #f1ebeb;
+$melon-gray-100: #e7dfdf;
+$melon-gray-200: #dacccd;
+$melon-gray-300: #c8babb;
+$melon-gray-400: #cabbbc;
+$melon-gray-500: #9e9495;
+$melon-gray-600: #775a5c;
+$melon-gray-700: #634749;
+$melon-gray-800: #443b3c;
+$melon-gray-900: #252020;
+
+$melon-input-btn-focus-color: rgba(
+  $melon-primary,
+  $input-btn-focus-color-opacity
+);
+$melon-input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width
+  $melon-input-btn-focus-color;
+
+$melon-input-focus-border-color: tint-color($melon-primary, 50%);
+
+//Desert
+$desert-primary: #f0967b;
+$desert-primary-darken: #c5855a;
+$desert-secondary: #a5a58d;
+$desert-success: #a5a58d;
+$desert-info: #ffddc3;
+$desert-warning: $yellow;
+$desert-danger: $red;
+$desert-light: $gray-100;
+$desert-dark: $gray-800;
+$desert-body-back: #f6efeb;
+$desert-font-color: #554942;
+
+$desert-gray-50: #f1eceb;
+$desert-gray-100: #e7e1df;
+$desert-gray-200: #dacecc;
+$desert-gray-300: #c8bdba;
+$desert-gray-400: #cabebb;
+$desert-gray-500: #9e9694;
+$desert-gray-600: #77605a;
+$desert-gray-700: #634b47;
+$desert-gray-800: #443c3b;
+$desert-gray-900: #252120;
+
+$desert-input-btn-focus-color: rgba(
+  $desert-primary,
+  $input-btn-focus-color-opacity
+);
+$desert-input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width
+  $desert-input-btn-focus-color;
+
+$desert-input-focus-border-color: tint-color($desert-primary, 50%);
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "pink": $pink,
+  ),
+  $theme-colors
+);
+$fb: #3b5999;
+$tw: #55acee;
+$insta: #e4405f;
+$youtube: #cd201f;
+
+$border-radius: 0.5rem;
+$border-radius-largest: 1.5rem;
+$border-radius-xl: 1rem;
+$border-radius-lg: 0.5rem;
+$border-radius-sm: 0.3rem;
+$radius-circle: 10rem;
+$defaultRadius: $border-radius-sm;
+
+// Buttons
+$btn-border-radius: $radius-circle;
+$input-btn-padding-x: 1rem;
+$btn-border-radius-sm: $radius-circle;
+$input-btn-font-size-sm: 0.775rem;
+$btn-hover-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+$defaultTransition: 0.5s all ease;
+$fastTransition: 0.2s all ease;
+
+// Form control
+$input-border-color: $gray-100;
+$input-border-radius: $border-radius-largest;
+
+$default-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+$btn-border-width: 0;
+
+$fa-var-facebook-f: "\f09a";
+$fa-var-vimeo: "\f27d";
+$fa-var-twitter: "\f099";
+$fa-var-pinterest: "\f0d2";
+$fa-var-linkedin: "\f0e1";
+$fa-var-dribbble: "\f17d";
+$fa-var-stumbleupon: "\f1a3";
+$fa-var-lastfm: "\f202";
+$fa-var-instagram: "\f16d";
+$fa-var-dropbox: "\f16b";
+$fa-var-soundcloud: "\f1be";
+$fa-var-behance: "\f1b4";
+$fa-var-skype: "\f17e";
+$fa-var-github: "\f09b";
+$fa-var-flickr: "\f16e";
+$fa-var-whatsapp: "\f232";
+$fa-var-reddit: "\f1a1";
+$fa-var-telegram: "\f2c6";
+// List of Social icons and colours
+$icon-list: (
+  vimeo "vimeo.com" "Vimeo" $fa-var-vimeo #1ab7ea,
+  twitter "twitter.com" "Twitter" $fa-var-twitter #1da1f2,
+  facebook "facebook.com" "Facebook" $fa-var-facebook-f #3b5998,
+  pintrest "pinterest.com" "Pinterest" $fa-var-pinterest #bd081c,
+  linkedin "linkedin.com" "LinkedIn" $fa-var-linkedin#0077b5,
+  dribbble "dribbble.com" "Dribbble" $fa-var-dribbble #ea4c89,
+  stumbleupon "stumbleupon.com" "StumbleUpon" $fa-var-stumbleupon #eb4924,
+  lastfm "last.fm" "Last.fm" $fa-var-lastfm #d51007,
+  instagram "instagram.com" "Instagram" $fa-var-instagram #5851db,
+  dropbox "dropbox.com" "Dropbox" $fa-var-dropbox#007ee5,
+  soundcloud "soundcloud.com" "Soundcloud" $fa-var-soundcloud#ff8800,
+  behance "behance.com" "Behance" $fa-var-behance#1769ff,
+  skype "skype.com" "Skype" $fa-var-skype #00aff0,
+  github "github.com" "GitHub" $fa-var-github #333,
+  flickr "flickr.com" "Flickr" $fa-var-flickr #0063dc,
+  whatsapp "whatsapp.com" "Whatsapp" $fa-var-whatsapp #25d366,
+  reddit "reddit.com" "Reddit" $fa-var-reddit #ff5700,
+  telegram "t.me" "Telegram" $fa-var-telegram #0088cc
+);

@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tenet theme\n"
+"POT-Creation-Date: 2021-10-13 12:00+0300\n"
+"PO-Revision-Date: 2021-10-13 12:17+0300\n"
+"Last-Translator: Siavash Keshmiri\n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:32
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:38
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:52
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:77
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments-fullwidth.php:25 comments.php:25
+msgid "Show Comments"
+msgstr "نمایش نظرات"
+
+#: comments-fullwidth.php:38 comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "یک دیدگاه برای &rdquo;%s&ldquo;"
+
+#: comments-fullwidth.php:46 comments.php:46
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "‏%1$s دیدگاه برای &rdquo;%2$s&ldquo;"
+msgstr[1] "‏%1$s دیدگاه برای &rdquo;%2$s&ldquo;"
+
+#: comments-fullwidth.php:66 comments-fullwidth.php:103 comments.php:66
+#: comments.php:103
+msgid "Comment navigation"
+msgstr ""
+
+#: comments-fullwidth.php:70 comments-fullwidth.php:108 comments.php:70
+#: comments.php:107
+msgid "&larr; Older Comments"
+msgstr "‏&rarr;  نظرات قدیمی‌تر"
+
+#: comments-fullwidth.php:76 comments-fullwidth.php:115 comments.php:76
+#: comments.php:113
+msgid "Newer Comments &rarr;"
+msgstr "نظرات تازه‌تر &larr; "
+
+#: functions.php:91
+msgid "by "
+msgstr "نوشته‌ی "
+
+#: header-centered.php:34 header.php:77
+msgid "Skip to content"
+msgstr "برو به متن"
+
+#: header-centered.php:70 header.php:88
+msgid "Main Navigation"
+msgstr "منوی اصلی"
+
+#: header-centered.php:76 header.php:98
+msgid "Toggle navigation"
+msgstr "باز کردن منو"
+
+#: header.php:165
+msgid "Type and hit Enter to search"
+msgstr "متن مورد نظر را در باکس زیر وارد کرده و اینتر بزنید."
+
+#: header.php:166
+msgid "Press ESC to close"
+msgstr "برای بستن ESC بزنید."
+
+#: inc/class-wp-bootstrap-navwalker.php:385
+msgid "Add a menu"
+msgstr "افزودن منو"
+
+#: inc/custom-comments.php:84
+msgid "Name"
+msgstr "نام"
+
+#: inc/custom-comments.php:91
+msgid "Email"
+msgstr "ایمیل"
+
+#: inc/custom-comments.php:99
+msgid "url"
+msgstr "آدرس وبسایت"
+
+#: inc/custom-comments.php:131
+msgid "Write your comment here"
+msgstr "دیدگاه خود را اینجا بنویسید"
+
+#: inc/custom-comments.php:152
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/custom-header.php:56
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Google Analytics code"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Put your Google Analytics code here."
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Custom Checkbox"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "This is a custom checkbox input."
+msgstr ""
+
+#: inc/extras.php:84
+msgid "Post navigation"
+msgstr ""
+
+#: inc/extras.php:93
+msgctxt "Prev post link"
+msgid ""
+"<header class=\"entry-header\"><div class=\"entry-meta before-title\"><span "
+"class=\"badge rounded-pill\">Previous post</span></div><h3 class=\"entry-"
+"title\"> %title</h3> </header>"
+msgstr ""
+"‏<header class=\"entry-header\"><div class=\"entry-meta before-title\"><span "
+"class=\"badge rounded-pill\">مطلب قدیمی‌تر</span></div><h3 class=\"entry-title"
+"\"> %title</h3> </header>"
+
+#: inc/extras.php:102
+msgctxt "Next post link"
+msgid ""
+"<header class=\"entry-header\"><div class=\"entry-meta before-title\"><span "
+"class=\"badge rounded-pill\">Next post</span></div><h3 class=\"entry-title"
+"\"> %title</h3> </header>"
+msgstr ""
+"‏<header class=\"entry-header\"><div class=\"entry-meta before-title\"><span "
+"class=\"badge rounded-pill\">مطلب تازه‌تر</span></div><h3 class=\"entry-title"
+"\"> %title</h3> </header>"
+
+#: inc/hooks.php:33
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: inc/hooks.php:36
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "قدرت گرفته از %s"
+
+#: inc/hooks.php:41
+#, php-format
+msgid "With %1$s By %2$s."
+msgstr "با %1$s توسط %2$s."
+
+#: inc/hooks.php:43
+msgid "http://tenet.ir"
+msgstr "http://tenet.ir"
+
+#: inc/pagination.php:55
+msgid "&laquo;"
+msgstr ""
+
+#: inc/pagination.php:56
+msgid "&raquo;"
+msgstr ""
+
+#: inc/pagination.php:59
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/setup.php:51
+msgid "Top Menu"
+msgstr ""
+
+#: inc/setup.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:53
+msgid "Search Screen Menu"
+msgstr ""
+
+#: inc/setup.php:54
+msgid "Socials Menu"
+msgstr ""
+
+#: inc/setup.php:149
+msgid "Read More &hellip;"
+msgstr "ادامه مطلب  &hellip;"
+
+#: inc/setup.php:172
+msgid "Extra profile information"
+msgstr ""
+
+#: inc/template-social-share.php:12
+msgid "Don't be selfish. Share the knowledge!"
+msgstr "این نوشته را با دیگران به اشتراک بگذارید"
+
+#: inc/template-social-share.php:20
+msgid "Share on Facebook"
+msgstr ""
+
+#: inc/template-social-share.php:25
+msgid "Share on Telegram"
+msgstr ""
+
+#: inc/template-tags.php:41
+#, php-format
+msgid ""
+"<span class=\"byline\"><span class=\"mini-thumbnail\">%1$s</span>by <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\">%3$s</a></span></"
+"span>"
+msgstr ""
+"‏<span class=\"byline\"><span class=\"mini-thumbnail\">%1$s</span>توسط <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\">%3$s</a></span></"
+"span>"
+
+#: inc/template-tags.php:158
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:165
+#, php-format
+msgid " Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:262
+msgid ", "
+msgstr ""
+
+#: inc/tenet-popular-widget.php:8
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/tenet-popular-widget.php:9
+msgid "A Popular Post Widget"
+msgstr ""
+
+#: inc/tenet-popular-widget.php:49
+msgid "by"
+msgstr "توسط"
+
+#: inc/tenet-popular-widget.php:73
+msgid "New title"
+msgstr "عنوان جدید"
+
+#: inc/tenet-popular-widget.php:84
+msgid "Title:"
+msgstr "عنوان:"
+
+#: inc/tenet-popular-widget.php:86
+msgid "Number of Posts:"
+msgstr "تعداد پست‌ها:"
+
+#: inc/theme-settings.php:62
+msgid "Post Images"
+msgstr "تصاویر پست‌ها"
+
+#: inc/theme-settings/ct-border.php:36 inc/theme-settings/ct-social.php:35
+msgid "Footer social icons"
+msgstr "آیکن‌های سوشال فوتر"
+
+#: inc/theme-settings/ct-border.php:38
+msgid "Set the title border style."
+msgstr "استایل کادر را تنظیم کنید"
+
+#: inc/theme-settings/ct-customcolors.php:28
+msgid "Body Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: inc/theme-settings/ct-customcolors.php:29
+msgid "Select the background color of website."
+msgstr "رنگ پس‌زمینه سایت را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:61
+msgid "Site Primary Color"
+msgstr "رنگ اصلی"
+
+#: inc/theme-settings/ct-customcolors.php:62
+msgid "Select the primary color of website."
+msgstr "رنگ اصلی سایت را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:95
+msgid "Site Secondary Color"
+msgstr "رنگ دوم"
+
+#: inc/theme-settings/ct-customcolors.php:96
+msgid "Select the secondary color of website."
+msgstr "رنگ دوم سایت را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:129
+msgid "Site Font Color"
+msgstr "رنگ متن‌های سایت"
+
+#: inc/theme-settings/ct-customcolors.php:130
+msgid "Select the font color of website."
+msgstr "رنگ متن‌های سایت را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:162
+msgid "Site Titles Font Color"
+msgstr "رنگ عناوین سایت"
+
+#: inc/theme-settings/ct-customcolors.php:163
+msgid "Select the font color for titles."
+msgstr "رنگ عناوین سایت را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:198
+msgid "Header Background Color"
+msgstr "رنگ پس‌زمینه هدر"
+
+#: inc/theme-settings/ct-customcolors.php:199
+msgid "Select the background color for header."
+msgstr "رنگ پس‌زمینه هدر را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:232
+msgid "Footer Background Color"
+msgstr "رنگ پس‌زمینه فوتر"
+
+#: inc/theme-settings/ct-customcolors.php:233
+msgid "Select the background color for footer."
+msgstr "رنگ پس‌زمینه فوتر  را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:267
+msgid "Social Icons Background Color"
+msgstr "رنگ پس‌زمینه آیکن‌های سوشال"
+
+#: inc/theme-settings/ct-customcolors.php:268
+msgid "Select the background color for social icons."
+msgstr "رنگ پس‌زمینه آیکن‌های سوشال را انتخاب کنید"
+
+#: inc/theme-settings/ct-customcolors.php:299
+msgid "Social Icons Color"
+msgstr "رنگ آیکن‌های سوشال"
+
+#: inc/theme-settings/ct-customcolors.php:300
+msgid "Select the color for social icons."
+msgstr "رنگ آیکن‌های سوشال را انتخاب کنید"
+
+#: inc/theme-settings/ct-palette.php:35
+msgid "Theme color palette"
+msgstr "پلت رنگی قالب سایت"
+
+#: inc/theme-settings/ct-palette.php:37
+msgid "Set your favourite palette"
+msgstr "پلت رنگی قالب سایت مورد علاقه خود را انتخاب کنید"
+
+#: inc/theme-settings/ct-social.php:37
+msgid "Set the way of showing social icons."
+msgstr "نحوه نمایش آیکن‌های سوشال"
+
+#: inc/theme-settings/ct-social.php:58
+msgid "Footer social icons border radius"
+msgstr "میزان انحنای آیکن‌های سوشال"
+
+#: inc/theme-settings/ct-social.php:60
+msgid "Round corner of social icons"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:6
+msgid "Theme Layout Settings"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:8
+msgid "Container width and sidebar defaults"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:40
+msgid "Boxed/Unboxed mode"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:41
+msgid "Choose boxed mode or unbox"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:81
+msgid "Container Width"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:82
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:125
+msgid "Blog and Archive Sidebar"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:127
+msgid ""
+"Set sidebar's default position. Can either be: right, left, both or none. "
+"Note: this can be overridden on individual pages."
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:167
+msgid "Single post/page header position"
+msgstr ""
+
+#: inc/theme-settings/layout-setting.php:168
+msgid "Show post/page header before thumbnail or after that?"
+msgstr ""
+
+#: inc/widgets.php:110
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/widgets.php:112
+msgid "Right sidebar widget area"
+msgstr ""
+
+#: inc/widgets.php:122
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/widgets.php:124
+msgid "Left sidebar widget area"
+msgstr ""
+
+#: inc/widgets.php:134
+msgid "Hero Slider"
+msgstr ""
+
+#: inc/widgets.php:136
+msgid "Hero slider area. Place two or more widgets here and they will slide!"
+msgstr ""
+
+#: inc/widgets.php:146
+msgid "Hero Canvas"
+msgstr ""
+
+#: inc/widgets.php:148
+msgid "Full size canvas hero area for Bootstrap and other custom HTML markup"
+msgstr ""
+
+#: inc/widgets.php:158
+msgid "Top Full"
+msgstr ""
+
+#: inc/widgets.php:160
+msgid "Full top widget with dynamic grid"
+msgstr ""
+
+#: inc/widgets.php:170
+msgid "Footer Full"
+msgstr ""
+
+#: inc/widgets.php:172
+msgid "Full sized footer widget with dynamic grid"
+msgstr ""
+
+#: loop-templates/_old-content.php:45
+#: loop-templates/content-boxy-notitle-page.php:29
+#: loop-templates/content-notitle-page.php:29
+#: loop-templates/content-page.php:33 loop-templates/content-single.php:33
+#: loop-templates/content.php:52
+msgid "Pages:"
+msgstr "برگه‌ها:"
+
+#: loop-templates/content-boxy-notitle-page.php:39
+#: loop-templates/content-notitle-page.php:39
+#: loop-templates/content-page.php:43
+msgid "Edit"
+msgstr "ویرایش"
+
+#: loop-templates/content-none.php:19
+msgid "Nothing Found"
+msgstr "مطلبی پیدا نشد"
+
+#: loop-templates/content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: loop-templates/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: loop-templates/content-none.php:47
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search-two-col.php:40 search.php:45
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجوی %s"
+
+#: searchform-fullpage.php:14 searchform.php:14
+msgid "Search"
+msgstr "جستجو"
+
+#: searchform-fullpage.php:16 searchform.php:16
+msgid "Search &hellip;"
+msgstr "جستجو &hellip;"
+
+#. Theme Name of the plugin/theme
+msgid "Ketapia"
+msgstr "کتاپیا"
+
+#. Theme URI of the plugin/theme
+msgid "http://theme.tenet.ir/"
+msgstr "http://theme.tenet.ir/"
+
+#. Description of the plugin/theme
+msgid ""
+"Minimal Free Wordpress Theme, based on Bootstrap 5, created by Siavash "
+"Keshmiri. Join theme discord channel for discussions, suggestions and bug "
+"reports. https://discord.gg/rw3cYcssty"
+msgstr ""
+"Minimal Free Wordpress Theme, based on Bootstrap 5, created by Siavash "
+"Keshmiri. Join theme discord channel for discussions, suggestions and bug "
+"reports. https://discord.gg/rw3cYcssty"
+
+#. Author of the plugin/theme
+msgid "Siavash Keshmiri"
+msgstr "سیاوش کشمیری"
+
+#. Author URI of the plugin/theme
+msgid "https://discord.gg/rw3cYcssty"
+msgstr "https://discord.gg/rw3cYcssty"
+
+#~ msgid "Name *"
+#~ msgstr "نام"
+
+#~ msgid "Email *"
+#~ msgstr "ایمیل *"
+
+#~ msgid "Read More ..."
+#~ msgstr "ادامه مطلب  &hellip;"
+
+#~ msgid "About:"
+#~ msgstr "אודות:"
+
+#~ msgid "Website"
+#~ msgstr "אתר"
+
+#~ msgid "Profile"
+#~ msgstr "פרופיל"
+
+#~ msgid "Posts by"
+#~ msgstr "נכתב ע\"י"
+
+#~ msgid "Permanent Link:"
+#~ msgstr "קישור קבוע:"
+
+#~ msgid "in"
+#~ msgstr "ב"
+
+#~ msgid "Theme: %1$s by %2$s."
+#~ msgstr "ערכת עיצוב: %1$s מבוסס  %2$s."
+
+#~ msgid "http://tenet.com"
+#~ msgstr "http://tenet.com"
+
+#~ msgid "Version: %1$s"
+#~ msgstr "גירסה:% 1"
+
+#~ msgctxt "noun"
+#~ msgid "Comment"
+#~ msgstr "תגובה"
+
+#~ msgid "Fixed width container"
+#~ msgstr "קונטיינר רוחב קבוע"
+
+#~ msgid "Full width container"
+#~ msgstr "קונטיינר רוחב מלא"
+
+#~ msgid "Sidebar Positioning"
+#~ msgstr "מיקום סרגל צדדי"
+
+#~ msgid "Right sidebar"
+#~ msgstr "סרגל צדדי ימני"
+
+#~ msgid "Left sidebar"
+#~ msgstr "סרגל צדדי שמאלי"
+
+#~ msgid "Left & Right sidebars"
+#~ msgstr "סרגלים צידיים שמאלה וימינה"
+
+#~ msgid "No sidebar"
+#~ msgstr "ללא סרגל צדדי"
+
+#~ msgctxt "Previous post link"
+#~ msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+#~ msgstr "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+
+#~ msgctxt "Next post link"
+#~ msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+#~ msgstr ""
+#~ "Read More&nbsp;<i class=\\\"dashicons dashicons-arrow-right-alt\\\"></i>"
+
+#~ msgid "Read More..."
+#~ msgstr "קרא עוד..."
+
+#~ msgctxt "post date"
+#~ msgid "Posted on %s"
+#~ msgstr "פורסם בתאריך : %s"
+
+#~ msgctxt "post author"
+#~ msgid "by %s"
+#~ msgstr "ע\"י %s"
+
+#~ msgid "Posted in %1$s"
+#~ msgstr "פורסם ב:  %1$s"
+
+#~ msgid "Tagged %1$s"
+#~ msgstr "תויג %1$s"
+
+#~ msgid "Edit %s"
+#~ msgstr "עריכה %"
+
+#~ msgid "Hero Static"
+#~ msgstr "סטטי"
+
+#~ msgid "Previous"
+#~ msgstr "הקודם"
+
+#~ msgid "Next"
+#~ msgstr "הבא"
+
+#~ msgid "Return To Shop"
+#~ msgstr "חזרה לחנות"
+
+#~ msgid "Product"
+#~ msgstr "מוצר"
+
+#~ msgid "Price"
+#~ msgstr "מחיר"
+
+#~ msgid "Quantity"
+#~ msgstr "כמות"
+
+#~ msgid "Total"
+#~ msgstr "סה\"כ לתשלום"
+
+#~ msgid "Remove this item"
+#~ msgstr "הסר"
+
+#~ msgid "Available on backorder"
+#~ msgstr "זמין להזמנה מוקדמת"
+
+#~ msgid "Coupon:"
+#~ msgstr "קופון:"
+
+#~ msgid "Coupon code"
+#~ msgstr "קוד קופון"
+
+#~ msgid "Apply coupon"
+#~ msgstr "ממש קופון"
+
+#~ msgid "Update Cart"
+#~ msgstr "עדכן עגלת קניות"
+
+#~ msgid "Subtotal"
+#~ msgstr "סה\"כ"
+
+#~ msgid "No products in the cart."
+#~ msgstr "אין מוצרים בעגלה."
+
+#~ msgid "Proceed to Checkout"
+#~ msgstr "המשך לתשלום"
+
+#~ msgid "You must be logged in to checkout."
+#~ msgstr "אתה חייב להיות מחובר כדי לבצע צ'ק אאוט."
+
+#~ msgid "Your order"
+#~ msgstr "ההזמנה שלך"
+
+#~ msgid "Have a coupon?"
+#~ msgstr "יש לך קופון?"
+
+#~ msgid "Click here to enter your code"
+#~ msgstr "*(לא נאפשר כפל הנחת קופון עם נקודות בונוס, הודעה תתקבל)"
+
+#~ msgid "Apply Coupon"
+#~ msgstr "החל קופון"
+
+#~ msgid "Qty"
+#~ msgstr "כמות"
+
+#~ msgid "Totals"
+#~ msgstr "סה\"כ"
+
+#~ msgid ""
+#~ "Sorry, it seems that there are no available payment methods for your "
+#~ "location. Please contact us if you require assistance or wish to make "
+#~ "alternate arrangements."
+#~ msgstr ""
+#~ "מצטערים, אין אפשרויות תשלום הזמינות עבור המיקום שלך. צרו עימנו קשר כדי "
+#~ "לבצע תשלום באמצעים חלופיים."
+
+#~ msgid ""
+#~ "Sorry, it seems that there are no available payment methods for your "
+#~ "state. Please contact us if you require assistance or wish to make "
+#~ "alternate arrangements."
+#~ msgstr ""
+#~ "אין אפשרויות תשלום הזמינות עבור המדינה שלך. צרו קשר בכדי לבצע תשלום "
+#~ "באמצעים חלופיים."
+
+#~ msgid "Please fill in your details above to see available payment methods."
+#~ msgstr "אנא הכניסו פרטים לעיל על מנת לקבל את אמצעי התשלום הזמינים."
+
+#~ msgid ""
+#~ "Since your browser does not support JavaScript, or it is disabled, please "
+#~ "ensure you click the <em>Update Totals</em> button before placing your "
+#~ "order. You may be charged more than the amount stated above if you fail "
+#~ "to do so."
+#~ msgstr ""
+#~ "מאחר שהדפדפן שלך אינו תומך בJavaScript או שהאופציה מנוטרלת,יש להקפיד "
+#~ "ללחוץ על לחצן <em>עדכון סכומים</em> לפני ביצוע ההזמנה. ייתכן והחיוב יהיה "
+#~ "יותר מהסכום האמור לעיל, אם לא יבוצע \"עדכון פרטים\"."
+
+#~ msgid "Update totals"
+#~ msgstr "למידע נוסף"
+
+#~ msgid "Username or email"
+#~ msgstr "שם משתמש או כתובת דוא\"ל"
+
+#~ msgid "Password"
+#~ msgstr "סיסמה"
+
+#~ msgid "Login"
+#~ msgstr "התחבר"
+
+#~ msgid "Remember me"
+#~ msgstr "זכור אותי"
+
+#~ msgid "Lost your password?"
+#~ msgstr "שכחת  את הסיסמה?"
+
+#~ msgctxt "Product quantity input tooltip"
+#~ msgid "Qty"
+#~ msgstr "כמות"
+
+#~ msgid "Go Shop"
+#~ msgstr "בחר מפגשים"
+
+#~ msgid "No downloads available yet."
+#~ msgstr "אין עדיין הורדות זמינות."
+
+#~ msgid "First name"
+#~ msgstr "שם פרטי"
+
+#~ msgid "Last name"
+#~ msgstr "שם משפחה"
+
+#~ msgid "Email address"
+#~ msgstr "כתובת מייל"
+
+#~ msgid "Password Change"
+#~ msgstr "שינוי סיסמא"
+
+#~ msgid "Current Password (leave blank to leave unchanged)"
+#~ msgstr "סיסמא נוכחית (השאר ריק אם אין ברצונך לשנות)"
+
+#~ msgid "New Password (leave blank to leave unchanged)"
+#~ msgstr "סיסמא חדשה (מלא רק אם ברצונך לשנות)"
+
+#~ msgid "Confirm New Password"
+#~ msgstr "אמת סיסמא חדשה"
+
+#~ msgid "Save changes"
+#~ msgstr "שמור שינויים"
+
+#~ msgid "Billing address"
+#~ msgstr "כתובת חיוב"
+
+#~ msgid "Shipping address"
+#~ msgstr "כתובת למשלוח"
+
+#~ msgid "Save address"
+#~ msgstr "שמור כתובת"
+
+#~ msgid "Username or email address"
+#~ msgstr "שם משתמש או כתובת דוא\"ל"
+
+#~ msgid "Register"
+#~ msgstr "הרשמה"
+
+#~ msgid "Username"
+#~ msgstr "סיסמא"
+
+#~ msgid ""
+#~ "Lost your password? Please enter your username or email address. You will "
+#~ "receive a link to create a new password via email."
+#~ msgstr "הזן שם משתמש או דוא\"ל. אימייל עם קישור לאיפוס סיסמה ישלח אליך מיד."
+
+#~ msgid "Reset Password"
+#~ msgstr "לאפס סיסמה"
+
+#~ msgid "Enter a new password below."
+#~ msgstr "הזן סיסמה חדשה למטה."
+
+#~ msgid "New password"
+#~ msgstr "סיסמה חדשה (10 תווים לפחות)"
+
+#~ msgid "Re-enter new password"
+#~ msgstr "חזרו על הסיסמה החדשה"
+
+#~ msgid "Save"
+#~ msgstr "שמור"
+
+#~ msgid ""
+#~ "The following addresses will be used on the checkout page by default."
+#~ msgstr "הכתובות הבאות ישמשו בתהליך הרכישה באופן אוטומטי"
+
+#~ msgid "You have not set up this type of address yet."
+#~ msgstr "לא הגדרת את סוג הכתובת הזאת עדיין."
+
+#~ msgid "Order"
+#~ msgstr "סדר"
+
+#~ msgid "Date"
+#~ msgstr "תאריך"
+
+#~ msgid "Status"
+#~ msgstr "סטטוס"
+
+#~ msgid "Recent Orders"
+#~ msgstr "הזמנות אחרונות"
+
+#~ msgctxt "hash before order number"
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "%s for %s item"
+#~ msgid_plural "%s for %s items"
+#~ msgstr[0] "%s %s עבור \"%s\""
+#~ msgstr[1] ""
+
+#~ msgid "Pay"
+#~ msgstr "שלם"
+
+#~ msgid "View"
+#~ msgstr "צפה"
+
+#~ msgid "Cancel"
+#~ msgstr "בטל"
+
+#~ msgid "%1$s for %2$s item"
+#~ msgid_plural "%1$s for %2$s items"
+#~ msgstr[0] "%1$s עבור %2$s"
+#~ msgstr[1] ""
+
+#~ msgid "Go shop"
+#~ msgstr "המשיכו לקנות"
+
+#~ msgid "No order has been made yet."
+#~ msgstr "עדין לא בוצעו הזמנות."
+
+#~ msgid "Search products&hellip;"
+#~ msgstr "חפש מוצרים&hellip;"
+
+#~ msgctxt "submit button"
+#~ msgid "Search"
+#~ msgstr "חיפוש"
+
+#~ msgid "%s customer review"
+#~ msgid_plural "%s customer reviews"
+#~ msgstr[0] "דירוג אורח"
+#~ msgstr[1] "דירוג אורח"
+
+#~ msgid "tenet"
+#~ msgstr "tenet"
+
+#~ msgid "Holger Koenemann"
+#~ msgstr "Holger Koenmann"
+
+#~ msgid "http://www.holgerkoenemann.de"
+#~ msgstr "http://www.holgerkoenemann.de"
+
+#~ msgid "Blank Page Template"
+#~ msgstr "עמוד ריק"
+
+#~ msgid "Left and Right Sidebar Layout"
+#~ msgstr "סרגל צדדי ימני"
+
+#~ msgid "Empty Page Template"
+#~ msgstr "תבנית דף ריק"
+
+#~ msgid "Full Width Page"
+#~ msgstr "רוחב מלא"
+
+#~ msgid "Left Sidebar Layout"
+#~ msgstr "פריסת סרגל הצד"
+
+#~ msgid "Right Sidebar Layout"
+#~ msgstr "סרגל צדדי ימני"

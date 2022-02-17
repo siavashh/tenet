@@ -1,0 +1,104 @@
+.boxed-body {
+  &.interior {
+    .site-main {
+      article.page.boxy {
+        @include boxed($padding: 0 0 2em);
+      }
+    }
+  }
+  .site-main {
+    margin: 0;
+    article.boxy {
+      @include boxed($padding: 0 0 2em);
+    }
+    .single-thumbnail {
+      box-shadow: none;
+      border-radius: 0;
+      position: relative;
+      z-index: 1;
+    }
+  }
+  &.single {
+    .main-content {
+      margin-top: -150px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+  &.page-template-fullwidthpage-boxed {
+    .main-content {
+      margin-top: -10em;
+      position: relative;
+      z-index: 9;
+    }
+  }
+  .page-header {
+    @include boxed($padding: 2em);
+  }
+  header.boxy,
+  article.boxy {
+    @include boxed($padding: 0 0 5em);
+    .entry-thumbnail {
+      box-shadow: none;
+      border-radius: 0;
+    }
+    padding-bottom: 2em;
+  }
+
+  // &.page-template-fullwidthpage {
+  //   .site-main {
+  //     .fullpage-box {
+  //       @include boxed($padding: 0 0 2em);
+  //       .single-thumbnail {
+  //         box-shadow: none;
+  //         border-radius: 0;
+  //       }
+  //     }
+  //   }
+  // }
+  aside.widget {
+    @include boxed($padding: 1em, $margin: 0 0 2em);
+  }
+
+  .navigation {
+    &.post-navigation {
+      // padding: 2em 0.5em 0;
+      padding: 2em 0;
+      article {
+        padding-bottom: 1em;
+        padding-top: 1em;
+        a {
+          box-shadow: $default-box-shadow;
+          border-radius: $border-radius-lg;
+          background: $white;
+          .entry-thumbnail {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+  .comments-area {
+    @include boxed($padding: 3em);
+    .comment-respond {
+      // background: $gray-25;
+      padding: 4em;
+    }
+  }
+
+  .wp-block-latest-posts.is-grid {
+    li {
+      .wp-block-latest-posts__post-excerpt {
+        .tenet-read-more-link {
+        }
+      }
+      border-radius: $border-radius-lg;
+      box-shadow: $default-box-shadow;
+      background: $white;
+      overflow: hidden;
+      .wp-block-latest-posts__featured-image {
+        border-radius: 0;
+      }
+    }
+  }
+}

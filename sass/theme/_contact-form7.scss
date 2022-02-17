@@ -1,0 +1,123 @@
+/*
+* Use existing Bootstrap 4 classes and
+* variables to extend - override CF7 style
+*
+* Useful CF7 classes:
+* .wpcf7 the wrapper element
+* .wpcf7-form
+* .wpcf7-form-control
+* .wpcf7-text
+* .wpcf7-email
+* .wpcf7-textarea
+* .wpcf7-submit
+*/
+
+// keep a max width in case it is just the form and nothing else
+// we do not want a form spanning whole page
+.wpcf7 {
+  max-width: 600px;
+  margin: 0 auto !important;
+
+  // submit button, inherit .btn and .btn-outline-primary classes.
+  // input[type=submit] {
+  //   @extend .btn;
+  //   @extend .btn-outline-primary;
+  // }
+
+  .wpcf7-form {
+    // set paragraphs to behave like divs with class .mb-3
+    p {
+      @extend .mb-3;
+    }
+
+    // let labels be 100%
+    label {
+      width: 100%;
+    }
+  }
+
+  // not valid tip for each control
+  .wpcf7-not-valid-tip {
+    color: theme-color("danger");
+  }
+
+  // validation errors ourput bottom of form
+  .wpcf7-validation-errors {
+    @extend .form-control;
+    color: theme-color("danger");
+    border: 1px solid $gray-200;
+  }
+
+  .form-check-input[type="radio"],
+  .wpcf7-acceptance .wpcf7-list-item input[type="radio"],
+  .wpcf7-checkbox .wpcf7-list-item input[type="radio"],
+  .wpcf7-checkbox .wpcf7-list-item input[type="checkbox"],
+  .wpcf7-radio .wpcf7-list-item input[type="radio"] {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .wpcf7-not-valid {
+    border-color: cv("bs-red") !important;
+    background-color: cv("color-red-light") !important;
+  }
+  .wpcf7-not-valid-tip {
+    color: cv("color-red-light") !important;
+    font-size: 0.8rem;
+    margin-top: 0.4em;
+  }
+
+  .form-tip {
+    color: #6c757d;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  .wpcf7-radio,
+  .wpcf7-checkbox,
+  .wpcf7-acceptance {
+    @extend .form-check;
+    .wpcf7-list-item {
+      @extend .form-check-inline;
+      input {
+        @extend .form-check-input;
+      }
+      .wpcf7-list-item-label {
+        @extend .form-check-label;
+      }
+    }
+  }
+  .wpcf7-response-output {
+    margin: 1em 0;
+    font-size: 0.9rem;
+  }
+  &.sent .wpcf7-response-output {
+    font-size: 0.9rem;
+  }
+  .wpcf7-not-valid-tip {
+    color: #b54c51 !important;
+  }
+
+  .wpcf7-acceptance .wpcf7-list-item input:checked,
+  .wpcf7-checkbox .wpcf7-list-item input:checked,
+  .wpcf7-radio .wpcf7-list-item input:checked,
+  .action-button,
+  input[type="submit"] {
+    background-color: cv("primary-color");
+    border-color: cv("primary-darken");
+    &:hover {
+      color: white;
+      background-color: cv("primary-darken");
+    }
+  }
+  .action-button.cf7mls_back {
+    background-color: cv("secondary-color");
+    border-color: cv("secondary-darken");
+    &:hover {
+      color: white;
+      background-color: cv("secondary-darken");
+    }
+  }
+  .action-button.cf7mls_back {
+    background-color: cv("secondary-color");
+    border-color: cv("secondary-darken");
+  }
+}

@@ -1,0 +1,95 @@
+// Melon
+body.palette-melon {
+  @include cvover(
+    (
+      gray-50: $melon-gray-50,
+      gray-100: $melon-gray-100,
+      gray-200: $melon-gray-200,
+      gray-300: $melon-gray-300,
+      gray-400: $melon-gray-400,
+      gray-500: $melon-gray-500,
+      gray-600: $melon-gray-600,
+      gray-700: $melon-gray-700,
+      gray-800: $melon-gray-800,
+      gray-900: $melon-gray-900,
+      primary-color: $melon-primary,
+      primary-darken: $melon-primary-darken,
+      color-red-light: darken($melon-danger, 15%),
+      secondary-color: $melon-secondary,
+      secondary-darken: darken($melon-secondary, 15%),
+      color-cyan: $cyan,
+      body-back: $melon-body-back,
+      font-color: $melon-font-color,
+      title-font-color: $melon-font-color,
+      big-search-back: rgba($melon-gray-300, 0.95),
+      focus-shadow: $melon-input-btn-focus-box-shadow,
+      focus-border: $melon-input-focus-border-color,
+    )
+  );
+
+  .btn-secondary,
+  .wp-block-button__link.uagb-text-link {
+    background-color: cv("secondary-color");
+    border-color: cv("secondary-darken");
+  }
+  &.border-type-circle {
+    .borderb,
+    .wp-block-latest-posts__list .wp-block-latest-posts__post-date,
+    .widget-title {
+      @include theBorder($type: "circle", $palette: "melon");
+    }
+  }
+
+  &.border-type-zigzag {
+    .borderb,
+    .wp-block-latest-posts__list .wp-block-latest-posts__post-date,
+    .widget-title {
+      @include theBorder($type: "zigzag", $palette: "melon");
+    }
+  }
+}
+
+body.palette-desert {
+  @include cvover(
+    (
+      gray-50: $desert-gray-50,
+      gray-100: $desert-gray-100,
+      gray-200: $desert-gray-200,
+      gray-300: $desert-gray-300,
+      gray-400: $desert-gray-400,
+      gray-500: $desert-gray-500,
+      gray-600: $desert-gray-600,
+      gray-700: $desert-gray-700,
+      gray-800: $desert-gray-800,
+      gray-900: $desert-gray-900,
+      primary-color: $desert-primary,
+      primary-darken: $desert-primary-darken,
+      color-red-light: darken($desert-danger, 15%),
+      secondary-color: $desert-secondary,
+      secondary-darken: darken($desert-secondary, 15%),
+      color-cyan: $cyan,
+      body-back: $desert-body-back,
+      font-color: $desert-font-color,
+      title-font-color: $desert-font-color,
+      big-search-back: rgba($desert-gray-300, 0.95),
+      focus-shadow: $desert-input-btn-focus-box-shadow,
+      focus-border: $desert-input-focus-border-color,
+    )
+  );
+
+  &.border-type-circle {
+    .borderb,
+    .wp-block-latest-posts__list .wp-block-latest-posts__post-date,
+    .widget-title {
+      @include theBorder($type: "circle", $palette: "desert");
+    }
+  }
+
+  &.border-type-zigzag {
+    .borderb,
+    .wp-block-latest-posts__list .wp-block-latest-posts__post-date,
+    .widget-title {
+      @include theBorder($type: "zigzag", $palette: "desert");
+    }
+  }
+}

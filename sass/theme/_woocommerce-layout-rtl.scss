@@ -1,0 +1,128 @@
+.rtl {
+  &.woocommerce,
+  &.woocommerce-page {
+    ul.products {
+      li {
+        &.product {
+          float: right;
+          margin: 0 0 2.992em 3.8%;
+        }
+        &.last {
+          margin-left: 0;
+        }
+      }
+    }
+    nav.woocommerce-pagination {
+      ul {
+        li {
+          float: right;
+        }
+      }
+    }
+    .woocommerce-error .button,
+    .woocommerce-info .button,
+    .woocommerce-message .button {
+      margin-left: 1em;
+      font-weight: 100;
+    }
+    form,
+    .woocommerce-checkout {
+      .form-row-first {
+        float: right;
+      }
+      .form-row-last {
+        float: left;
+      }
+    }
+    table.shop_table,
+    form.checkout_coupon,
+    form.login,
+    form.register {
+      text-align: right;
+    }
+    table.shop_table {
+      .order-total,
+      .cart-subtotal {
+        th {
+          text-align: left;
+        }
+      }
+    }
+    &.woocommerce-cart table.cart td.actions .coupon .input-text {
+      padding: 4px 4px 3px;
+    }
+
+    .woocommerce-customer-details {
+      .woocommerce-customer-details--email,
+      .woocommerce-customer-details--phone {
+        position: relative;
+        &:before {
+          left: 0;
+          margin-left: 0;
+        }
+      }
+    }
+    ul.order_details {
+      margin: 0 0 3em;
+      li {
+        float: right;
+        margin-right: 0;
+        margin-left: 2em;
+        padding-right: 0;
+        padding-left: 2em;
+        border-left: 1px dashed #a9a18f;
+        border-right: 0;
+      }
+    }
+    .woocommerce-checkout #payment {
+      div.payment_box::before {
+        right: 0;
+        left: unset;
+        margin: -1em 2em 0 0;
+      }
+      ul.payment_methods li {
+        text-align: right;
+        margin-bottom: 1em;
+      }
+    }
+  } // .woocommerce
+
+  &.woocommerce-account .woocommerce-MyAccount-navigation {
+    ul {
+      li {
+        a {
+          &:before {
+            margin-right: 0.3em;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  #add_payment_method #payment,
+  .woocommerce-cart #payment,
+  .woocommerce-checkout #payment {
+    .woocommerce-notice {
+      text-align: right;
+    }
+  }
+}
+
+// Laptop max-width: 1200
+@media all and (max-width: map-get($grid-breakpoints, xl)) {
+  .rtl {
+    &.woocommerce-account {
+      article .woocommerce {
+        .woocommerce-MyAccount-navigation {
+          a {
+            &:before {
+              margin-left: 0.3em;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

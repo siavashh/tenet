@@ -1,0 +1,18 @@
+@import "theme/theme_variables"; // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or tenet variables here
+@import "theme/mixins";
+@import "assets/bootstrap5"; // <-------- Loads Bootstrap4
+@import "tenet/tenet"; // <-------- Loads the tenet defaults. Just a few classes to incorporate BS in WP
+@import "tenet/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you dont use the corresponding scripts/fonts comment em out
+@import "assets/font-awesome"; // <-------- Font Awesome Icon font
+
+// Any additional imported files //
+@import "theme/theme"; // <-------- That's where you can add your own design. Thats your part!
+@import "theme/forms"; // <-------- Contact Form 7 - Bootstrap 4 support
+@import "theme/boxed";
+@import "theme/unboxed";
+@import "theme/responsive";
+@import "theme/rtl"; // <-------- For RTL Languages like Farsi, Arabic, Hebrew etc...
+
+// @import "theme/theme_woocommerce";
